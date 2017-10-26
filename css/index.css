@@ -4,14 +4,6 @@
     padding: 25px 25px;
 }
 
-.menu{
-    display:inline-block;
-}
-
-
-.conteudo{
-    display: inline;
-}
 
 body{
     margin: 0;
@@ -21,33 +13,48 @@ body{
 
 
 nav{
-    margin: 0 20px;
-    font-size: 20px;
-    padding-top: 30px;
-    position: fixed;
+    background-color: #660066;
+    margin: 0;
+    font-size: 18px;
+    padding: 8px;
+    position: relative;
 }
 
-.satanas{
-    height: 200px;
+main{
+    width: 70%;
+    margin: auto;
+/*    margin-top: 30px;
+    margin-left: 250px;*/
+}
+
+.menu-item{
+    margin: auto;
+    text-align: center;
 }
 
 .menu-item-bla{
-    /*display: inline;*/
-    margin: 20px 8px 20px 8px;
-    font-weight: bold;
+    display: inline;
+    margin: 20px 10px 20px 10px;
+    /*font-weight: bold;*/
     /*transition: transform 500ms ease-in-out;*/
 }
 
+nav a{
+    color: #ffffff;
+}
+
 a:hover{
-    color: darkslateblue;
+    color: #f2f2f2;
 }
 
 a{
     text-decoration: none;
     color: purple;
+
 }
 
 .satanas{
+    height: 200px;
     border-radius: 50% 50% 50% 50%;
 }
 
@@ -73,17 +80,6 @@ h1{
     margin-bottom: 0;
 }
 
-.colunas{
-    display: inline;
-}
-
-main{
-    display:inline-block;
-    width: 70%;
-    margin-top: 30px;
-    margin-left: 250px;
-    transition: transform 1s ease-in-out;
-}
 
 section{
     display: flex;
@@ -93,16 +89,24 @@ section{
 
 section h3{
     font-size: 15px;
-    min-width: 300px;
+    min-width: 150px;
     text-align: right;
     margin-right: 50px;
     padding-top: 5px;
     
 }
 
+h4 p span{
+    font-size: 12px;
+}
+
 ul{
     padding: 0;
-    list-style: none;
+    /*list-style: none;*/
+}
+
+li{
+    margin-bottom: 10px;
 }
 
 footer{
@@ -114,4 +118,17 @@ footer{
 footer a:hover {
     color: #660000;
     text-decoration: none;
+}
+
+@media screen and (max-width:768px) {
+
+    section{
+    display: block;
+}
+
+section h3{
+    text-align: left;
+    
+}
+
 }
