@@ -131,4 +131,25 @@ section h3{
     
 }
 
+body{
+    text-align: left;
+}
+
+main{
+    width: 85%;
+}
+
+h1{
+    font-size: 30px;}
+
+}
+
+.header h2{
+    font-size: 15px;
+}
+
+nav{
+    display: none;
+}
+
 }
